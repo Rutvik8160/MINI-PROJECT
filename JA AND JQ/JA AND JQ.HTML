@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<center>
+<HEAD><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p2").hide(1000);
+    alert("The paragraph is now hidden");
+  });
+});
+</script> </HEAD>
+<body style="background-color:PINK">
+
+<h1 STYLE="color:DARK"> SILVER OAK UNIVERSITY </H1>
+<BR>
+<HR>
+<HR>
+<H3>COLLEGE OF COMPUTER APPLICATION </H3>
+<BR>
+<HR>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#H1").css("color", "red")
+      .slideUp(2000)
+      .slideDown(2000);
+  });
+});
+</script>
+
+<h3 id="demo1">NAME </h3>
+
+<button type="button" onclick='document.getElementById("demo1").innerHTML = " SOLANKI RUTVIK "'>Click Me!</button>
+
+<HR>
+<HR>
+
+<h3 id="demo20"> STUDY </h3>
+
+<button type="button" onclick='document.getElementById("demo20").innerHTML = "BACHELAR OF COMPUTER APPLICATION"'>Click Me!</button>
+
+<HR>
+<HR>
+
+<h3 id="demo30"> UNIVARSITY</h3>
+
+<button type="button" onclick='document.getElementById("demo30").innerHTML = "SILVER OAK UNIVERSITY"'>Click Me!</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("H1").on({
+    mouseenter: function(){
+      $(this).css("background-color", "lightgray");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "lightblue");
+    }, 
+    click: function(){
+      $(this).css("background-color", "yellow");
+    }  
+  });
+});
+</script>
+<HR>
+<HR>
+<button>  THANK YOU</button>
+<HR>
+<HR>
+<BR>
+<p2> THANK YOU </p2>
+<BR>
+<HR>
+<button onclick="window.print()">Print this page</button>
+</body>
+</center>
+</html> 
+
+
+
+
+
+	
